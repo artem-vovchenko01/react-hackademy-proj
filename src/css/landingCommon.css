@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.logo {
+  height: 3rem;
+}
+
+nav {
+  background-color: rgba(16, 185, 129, 0.91);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 5%;
+}
+
+nav {
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  padding: 0 0.4rem;
+  font-size: 1rem;
+  font-weight: 1000;
+}
+
+.nav-start {
+  margin-left: auto;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.logo-li {
+  margin-top: 0.3rem;
+  flex-basis: 50%;
+}
+
+img {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+

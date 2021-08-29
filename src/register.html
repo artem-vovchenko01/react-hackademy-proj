@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hackopen</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/register.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li class="logo-li">
+            <a href="index.html"><img src="images/logo.png" class="logo"/></a>
+          </li>
+          <li class="nav-start">
+            <a href="#">projects</a>
+          </li>
+          <li>
+            <a href="register.html">register</a>
+          </li>
+          <li>
+            <a href="#">login</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Registration</h1>
+
+    <div class="inp-row">
+    <label for="inp-name">Name</label>
+    <input required type="text" placeholder="Your name" id="inp-name"/>
+    </div>
+
+    <div class="inp-row">
+    <label for="inp-sname">Surname</label>
+    <input required type="text" placeholder="Your surname" id="inp-sname"/>
+    </div>
+
+    <div class="inp-row">
+    <label for="inp-email">Email</label>
+    <input required type="text" placeholder="Your email" id="inp-email"/>
+    </div>
+
+    <div class="inp-row">
+    <label for="inp-passwd">Password</label>
+    <input required type="password" placeholder="Your password" id="inp-passwd"/>
+    </div>
+
+    <div class="inp-row">
+    <label for="sel-gender">Gender</label>
+      <select id="sel-gender" id="sel-gender">
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </div>
+
+    <div>
+    <input id="submit-btn" type="submit" value="Submit"/>
+    </div>
+
+  </body>
+</html>
